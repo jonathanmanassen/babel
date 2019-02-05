@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{002935e6-b133-487b-a9c9-6da534622b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{a3b04ca9-26a1-439d-80c9-b5f6fef7f3a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\audio.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clientToClient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\compression.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QtClient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QtGUI.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_clientToClient.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_clientToClient.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QtClient.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QtClient.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_QtGUI.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_QtGUI.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ClientNetwork.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ClientGUI.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\audio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\clientGuiInfo.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\compression.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IGUI.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\opus.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\opus_defines.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\opus_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\portaudio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Protocol.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IAudio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ICompression.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ClientNetwork.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="include\clientToClient.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="include\QtClient.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="include\QtGUI.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+    <CustomBuild Include="include\ClientGUI.h">
+      <Filter>include</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+C:/Users/jonathan/Documents/cpp_babel/server/build/CMakeFiles/server.dir
+C:/Users/jonathan/Documents/cpp_babel/server/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jonathan/Documents/cpp_babel/server/build/CMakeFiles/ZERO_CHECK.dir
