@@ -4,10 +4,10 @@ Babel is a project composed of a server, that needs to be run on any machine (wi
 
 ## Technologies Used
 
-PortAudio
-Opus
-Boost
-QT
+### PortAudio
+### Opus
+### Boost
+### QT
 
 ## Authors
 
